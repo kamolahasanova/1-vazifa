@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f4d04e;
+  font-family: Figtree;
+  line-height: 24px;
+  font-weight: 500;
+  color: #7f7f7f;
+}
+
+.card {
+  width: 384px;
+  padding: 24px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 8px 8px 0px 0px #000;
+  border: 1px solid #111;
+}
+.card__image {
+  margin-bottom: 24px;
+}
+.card__box {
+  border-radius: 10px;
+  background: #f4d04e;
+  display: inline-block;
+  padding: 4px 12px;
+}
+.card__box__text {
+  font-size: 14px;
+  font-weight: 800;
+  color: #111;
+}
+.card__data {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  color: #111;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+.card__title {
+  margin-bottom: 12px;
+  color: #111;
+}
+.card__next {
+  color: #7f7f7f;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.card__contianer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.card__contianer__image {
+  width: 32px;
+  height: 32px;
+}
+.card__contianer__name {
+  color: #111;
+  font-family: Figtree;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+}
